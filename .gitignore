@@ -1,2 +1,7 @@
 /cmake-build-debug/
 .idea
+a.out
+CMakeLists.txt
+
+/APG4b/a.out
+/APG4b/CMakeLists.txt
