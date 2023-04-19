@@ -22,14 +22,10 @@ int sum(vector<int> scores){
 	int ans;
 
 	ans = 0;
-	for (int i=0; i<scores.size(); i++){
-		ans += scores.at(i);
+	for (int i: scores){
+		ans += i;
 	}
 	return (ans);
-//	for (int i: scores){
-//		ans += i;
-//	}
-//	return (ans);
 }
 
 void output(int sumA, int sumB, int sumC){
